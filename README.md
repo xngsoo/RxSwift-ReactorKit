@@ -3,7 +3,6 @@
 - 목적, 특징 1~2줄 정리
   
 <br/>
-<br/>
 
 # 데모
 스크린샷 or gif
@@ -20,11 +19,12 @@
 
 - **기능4**:
   - 기능4 설명
-<br/>
+
 <br/>
 
-# 기술적 고민 & 해결/차별화 포인트
+# 트러블 슈팅
 
+<br/>
 
 # 기술 스택
 <p align="left">
@@ -36,10 +36,10 @@
   <img src="https://img.shields.io/badge/Kingfisher-3498DB?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/FlexLayout-1C1C1E?style=for-the-badge"/>
 </p>
+
 <br/>
 
-
-# 6. Project Structure (프로젝트 구조)
+# 프로젝트 구조
 ```plaintext
 Rx+Reactor/
 ├── AppDelegate.swift                    # 앱 진입 지점
