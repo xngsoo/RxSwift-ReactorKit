@@ -18,7 +18,7 @@ extension SearchViewController {
     /// 검색 버튼을 클릭했을 때 실행
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
-        search(query: searchBar.text ?? "")
+        //search(query: searchBar.text ?? "")
         searchBar.text = ""
         
         collectionView.setContentOffset(.zero, animated: true)

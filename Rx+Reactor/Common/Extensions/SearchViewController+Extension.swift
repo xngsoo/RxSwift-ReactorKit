@@ -12,6 +12,7 @@ extension SearchViewController: UICollectionViewDataSource {
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        print("🟦 [DataSource] imageURLs.count:", imageURLs.count)
         return imageURLs.count
     }
     
@@ -20,6 +21,7 @@ extension SearchViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
         let imageURL = imageURLs[indexPath.item]
+        print("🟪 [DataSource] cellForItemAt imageURL:", imageURL)
         cell.configure(with: imageURL)
         return cell
     }
